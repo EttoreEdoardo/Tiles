@@ -3,7 +3,6 @@ export default class RawObject {
     height;
     x;
     y;
-    z;
     constructor(x, y, width, height) {
         this.x = x;
         this.y = y;

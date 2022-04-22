@@ -6,7 +6,7 @@ import RawObject from "./RawObject.js";
 
 export default class GameArea {
   constructor() {
-    this.ninja = new AnimatedObject(NinjaSprites.running, 60, 60, 30, 500);
+    this.ninja = new AnimatedObject(NinjaSprites.running, 60, 60, 30, 60);
     this.level = new Level(
       20,
       20,
@@ -14,7 +14,7 @@ export default class GameArea {
       32,
       Level1.water,
       Level1.path,
-      Level1.obstacles,
+      Level1.obstacle,
       "https://i.ibb.co/s9hsrmx/Path-And-Objects.png",
       512,
       512
